@@ -27,10 +27,6 @@ const Navbar = () => {
           MoviesLib
         </Link>
       </h2>
-      <h2>
-        <Link to="/movie/1">Movie</Link>
-        <Link to="/search">Search</Link>
-      </h2>
       <form onSubmit={handleSubmit}>
         <input
           type="text"
