@@ -61,6 +61,7 @@
   align-items: center;
   transition: 0.4s;
 }
+
 .movies-container div a:hover {
   background-color: transparent;
   color: #f7d354;
@@ -78,6 +79,7 @@
   .movies-container div {
     width: 100%;
   }
+  
 }
 
 @media (max-width: 768px) {
@@ -98,6 +100,6 @@
   .movies-container {
     max-width: 400px;
   }
-  
+
   
 }
